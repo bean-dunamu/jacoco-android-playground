@@ -33,4 +33,11 @@ class MathTest {
         assertEquals(4, actual)
     }
 
+    @Test
+    fun testCalc() {
+        val math = Arithmetic()
+        val actual = math.calc(8, 2)
+        assertEquals(18, actual)
+    }
+
 }
