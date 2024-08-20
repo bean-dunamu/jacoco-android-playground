@@ -12,4 +12,10 @@ class MainViewModelTest {
         val actual = viewModel.validate("admin")
         Assert.assertTrue(actual)
     }
+
+    @Test
+    fun testValidate2() {
+        val actual = viewModel.validate("admin2")
+        Assert.assertFalse(actual)
+    }
 }
