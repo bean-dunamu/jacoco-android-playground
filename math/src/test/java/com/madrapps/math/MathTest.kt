@@ -33,4 +33,17 @@ class MathTest {
         assertEquals(4, actual)
     }
 
+    @Test
+    fun testModulo() {
+        val math = Arithmetic()
+        val actual = math.modulo(8, 2)
+        assertEquals(0, actual)
+    }
+
+    @Test
+    fun testArea() {
+        val math = Arithmetic()
+        val actual = math.area(8, 2)
+        assertEquals(16, actual)
+    }
 }
