@@ -11,4 +11,8 @@ class MainViewModel : ViewModel() {
     fun verifyAccess(userId: String): Boolean {
         return userId == "super-admin"
     }
+
+    fun verifyNormal(userId: String): Boolean {
+        return userId == "user"
+    }
 }
